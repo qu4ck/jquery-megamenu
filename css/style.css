@@ -1,0 +1,27 @@
+/*
+ * Author  : Airlangga bayu seto
+ * Email   : qu4ck@iso.web.id
+ */
+ 
+body{background:url(../images/bg_top.png) repeat-x;padding:0;margin:0;}
+#wrap{margin:0 auto;width:800px;}
+#header .top{height:76px;line-height:76px;text-align:center;font:bold 18px Tahoma;color:#FFF;}
+ul.nav{list-style:none;margin:3px 0 0 0;padding:0;}
+ul.nav li.parent{float:left;margin:0;border-left:1px solid #999;}
+ul.nav li a{display:block;padding:5px 10px;text-decoration:none;color:#666;font:normal 10px Sans serif, Helvetica, Arial;}
+ul.nav li a:hover{display:block;text-decoration:underline;}
+.clear{clear:both;}
+ul.nav li.first{border-left:none;margin:0;padding:0}
+
+.categories { display:none; position:absolute; padding:10px; width:500px;
+        background-color:#FFF; border:1px solid #999; border-bottom-left-radius:8px;
+        border-bottom-right-radius:8px; -moz-box-shadow:0 1px 3px rgba(0,0,0,0.2);
+        -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.2); z-index: 100;
+}
+.categories li.first{padding-top:0;}
+.categories li.last{padding-bottom:0;}
+.categories li{list-style:none;padding:2px 5px 1px 13px;}
+.categories li.fleft{float:left;width:230px;} 
+.categories li a{background-color:#F5F5F5;padding:5px;}
+.categories li ul.subcategories{font-size:10px;margin:0;padding:0 0 0 5px;}
+.categories li ul.subcategories li a{background:none;padding:2px 0;}

@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Title Isoweb Mega menu</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+        <script type="text/javascript">
+            $(function(event){
+                $('ul.nav #scat').hover(function(){
+                        $("#categories").css('display', 'block');
+                    }, function(){
+                        $("#categories").css('display', 'none');
+                });
+            });
+        </script>
+    </head>
+     <body>
+         <div id="wrap">
+            <div id="header">
+                <div class="top">Judul website</div>
+                <ul class="nav">
+                    <li class="first parent"><a href="#">Home</a></li>
+                    <li class="parent" id="scat">
+                        <a href="#">Categories</a>
+                        <ul class="categories" id="categories">
+                            <li class="fleft" id="fleft"><a href="#">Elektronik</a>
+                                <ul class="subcategories">
+                                    <li><a href="#">LG LCD TV 29 inch </a></li>
+                                    <li><a href="#">Samsung Mesin cuci 9 Kg </a></li>
+                                    <li><a href="#">Polytron Grand DVD </a></li>
+                                    <li><a href="#">LG LED TV 21 Inch </a></li>
+                                </ul>
+                            </li>
+                            <li class="fleft" id="fleft"><a href="#">Komputer</a>
+                                <ul class="subcategories">
+                                    <li><a href="#">Acer Aspire one</a></li>
+                                    <li><a href="#">Dell Inspiron</a></li>
+                                    <li><a href="#">Asus Eeepc</a></li>
+                                    <li><a href="#">Toshiba</a></li>
+                                </ul>
+                            </li>
+                            <li class="fleft" id="fleft"><a href="#">Fashion</a>
+                                <ul class="subcategories">
+                                    <li><a href="#">Baju muslim</a></li>
+                                    <li><a href="#">Mukenah putih</a></li>
+                                </ul>
+                            </li>
+                            <li class="fleft" id="fleft"><a href="#">Hardware &amp; Software</a>
+                                <ul class="subcategories">
+                                    <li><a href="#">Motherboard Gigabyte</a></li>
+                                    <li><a href="#">LAN Card Dlink</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="parent"><a href="#">About us</a></li>
+                    <li class="parent"><a href="#">Contact us</a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+         </div>         
+     </body>   
+</html>
